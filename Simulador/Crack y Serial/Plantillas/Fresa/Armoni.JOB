@@ -1,0 +1,9 @@
+Project File: Armoni.job [Format 3.01 rev.26/3/97]
+       JOB_Type: 0
++  NC_file #1 C:\WinUnisoft\Plantillas\Fresa\Armoni.nc
+         Setup: C:\WinUnisoft\Plantillas\Fresa\Armoni.stp
+        Stamps: 0 0 0 0
+
+LOG File: Armoni.LOG
+DOC File: Armoni.DOC
+RVP File: Armoni.RVP

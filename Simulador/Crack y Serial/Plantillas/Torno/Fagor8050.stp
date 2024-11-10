@@ -1,0 +1,76 @@
+;*SETUP FILE  (v2.2, August 1998)
+
+[SETUP]
+Units = MILLIMETERS
+CMS_SubDivision = AUTOMATIC
+
+[MACHINE]
+MCH_file = C:\WinUnisoft\Lib\TornoUniversal.mch
+Machine_Type = LATHE
+Units = MILLIMETERS
+Machine_Travels0 = [-200,0,-200]
+Machine_Travels = [400,0,400]
+RotaryAxis1_Limits = [0.000,0.000]
+RotaryAxis2_Limits = [0.000,0.000]
+ToolChange_position = [75,0,200]
+Control = 
+Default_ABC_modes = +A+B+C
+EnableDogLeg = 0
+RotaryAxis1_ProgrammingLetter = A
+RotaryAxis2_ProgrammingLetter = B
+RotaryAxis1_dir = [1.0000000,0.0000000,0.0000000]
+RotaryAxis2_dir = [0.0000000,1.0000000,0.0000000]
+RotaryAxis2_pos = [0.0000,0.0000,0.0000]
+SpindleFace_pos = [0.0000,0.0000,0.0000]
+Linear_axis_configuration = [0.000,0.000,0.000]
+ToolChange_delay = 60
+LoadUnload_delay = 0.0000
+ClampUnclamp_delay = 0.0000
+AirBlast_delay = 0.0000
+PalleteChange_delay = 0.0000
+M00M01_delay = 0.0000
+Max_MillSpindleSpeed = 5000
+Max_LatheSpindleSpeed = 5000
+Max_ProgrammedFeed = 3000
+Actual_RFeedXYZAxis = [5000,5000,5000]
+Actual_RFeed4thAxis = 0.000
+Actual_RFeed5thAxis = 0.000
+AxisAcceleration_XYZ = [0.000,0.000,0.000]
+AxisAcceleration_4thaxis = 0.000
+AxisAcceleration_5thaxis = 0.000
+DefaultFullStop = 1
+CycleTime_Drill_Adjust = 0.000
+CycleTime_Cycle_Adjust = 0.000
+CycleTime_Linear_Adjust = 0.000
+CycleTime_General_Adjust = 0.000
+RotaryAxis1_StartPos = 0.000
+RotaryAxis2_StartPos = 0.000
+RotaryAxis1_CoordMode = MODULE_360
+RotaryAxis2_CoordMode = MODULE_360
+ABC_modes = +A+B+C
+
+[WORK_COORDINATES]
+
+[DIAMETER_OFFSET]
+
+[LENGTH_OFFSET]
+
+[STOCK]
+STK_file = <NONE>
+STOCK=CYLINDER_Z xyz0=[-25,-25,-100] Diameter=50 Height=101
+STOCK=ZCYL_FIXT xyz0=[-32.5,-32.5,-100] Diameter=65 Height=0.3
+Origin_Relocation = [0,0,0]
+Machine_Datum = [0,0,0]
+Rotation_Mode = 0
+Rotation_Matrix0 = [1.0000,0.0000,0.0000]
+Rotation_Matrix1 = [0.0000,1.0000,0.0000]
+Rotation_Matrix2 = [0.0000,0.0000,1.0000]
+
+[TOOLS]
+Tool=T1.1 Quadrant=1 Type=DIAMOND Part_number= NTGNAME=<USER> Orient.=5.00000 IC=9.00000 Alpha=80.00000 r=0.40000 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=12.00000 H_Hght=70.00000 H_Clr_X=1.00000 H_Clr_Z=2.00000 H_Ang=5.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW Tip_offset=0.00000 color=0 
+Tool=T2.2 Quadrant=1 Type=DIAMOND Part_number= NTGNAME=<USER> Orient.=32.00000 IC=7.00000 Alpha=55.00000 r=0.00000 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=12.00000 H_Hght=70.00000 H_Clr_X=2.00000 H_Clr_Z=2.50000 H_Ang=30.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW Tip_offset=0.00000 color=0 
+Tool=T3.3 Quadrant=1 Type=DIAMOND Part_number= NTGNAME=<USER> Orient.=32.00000 IC=7.00000 Alpha=55.00000 r=0.20000 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=12.00000 H_Hght=70.00000 H_Clr_X=2.00000 H_Clr_Z=2.50000 H_Ang=30.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW Tip_offset=0.00000 color=0 
+Tool=T5.5 Quadrant=7 Type=DIAMOND Part_number= NTGNAME=<USER> Orient.=5.00000 IC=9.00000 Alpha=80.00000 r=0.40000 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=12.00000 H_Hght=70.00000 H_Clr_X=3.00000 H_Clr_Z=2.00000 H_Ang=5.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW Tip_offset=0.00000 color=0 
+Tool=T7.7 Quadrant=7 Type=DIAMOND Part_number= NTGNAME=<USER> Orient.=5.00000 IC=9.00000 Alpha=80.00000 r=0.40000 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=12.00000 H_Hght=70.00000 H_Clr_X=3.00000 H_Clr_Z=2.00000 H_Ang=5.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW Tip_offset=0.00000 color=0 
+Default_Tool = T1.1
+

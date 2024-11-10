@@ -1,0 +1,72 @@
+[Maquina]
+Maquina = C:\WinUnisoft\lib\Expert.mch
+TipoMaquina = Torno
+Tipo = 1
+ControlIndex = 2
+ControlText = WinCT
+Unidad = 0
+LimiteMaquina= 17.20,0.00,14.50,77.20,0,179.50
+CeroMaquina = 77.20,0.00,179.50
+OrigenPref = 0,0,0
+PosicionCambioHta = 50,0,50
+TiempoCambio = 5
+PosTorreta = 1
+VelocidadMaxima = 2000
+VelocidadMinima = 10
+AvanceMaximo = 400
+AvanceG00 = 400
+GiroCabezal = 1
+Trayectoria = 1
+CotaX = 0
+
+[Bruto]
+Forma = 0
+Material = -1
+Fijacion = 1
+XMax/Zmin = 0
+YMax/ZMax = 50
+ZMax/DExt = 30
+XMin/Long = 0
+YMin/D = 0
+ZMin/Nada = 0
+
+[Tools]
+Tool=T0.0:^sin^correctores _NumHta=0 _Corrector=0 _Descrip=sin^correctores Quadrant=1 Type=DIAMOND Part_number= NTGNAME=<USER> Orient.=5.00000 _Orient.=95.00000 IC=9.00000 _IC=9.00000 Alpha=80.00000 _DesgR=0.00000 _DesgL=0.00000 _DiametroDesg=0.00000 _LongitudDesg=0.00000 r=0.00000 _CodForma=3 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=12.00000 H_Hght=70.00000 H_Clr_X=3.00000 H_Clr_Z=3.00000 H_Ang=5.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW color=0 
+Tool=T1.1:^Cilin.-Refre.^Exteriores _NumHta=1 _Corrector=1 _Descrip=Cilin.-Refre.^Exteriores Quadrant=1 Type=DIAMOND Part_number= NTGNAME=<USER> Orient.=5.00000 _Orient.=95.00000 IC=9.00000 _IC=9.00000 Alpha=80.00000 _DesgR=0.00000 _DesgL=0.00000 _DiametroDesg=49.95000 _LongitudDesg=2.34000 r=0.04000 _CodForma=3 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=12.00000 H_Hght=70.00000 H_Clr_X=3.00000 H_Clr_Z=3.00000 H_Ang=5.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW color=0 
+Tool=T2.2:^Cilin.-Refre.^Exteriores _NumHta=2 _Corrector=2 _Descrip=Cilin.-Refre.^Exteriores Quadrant=1 Type=DIAMOND Part_number= NTGNAME=<USER> Orient.=20.00000 _Orient.=105.00000 IC=7.00000 _IC=7.00000 Alpha=55.00000 _DesgR=0.00000 _DesgL=0.00000 _DiametroDesg=54.00000 _LongitudDesg=19.00000 r=0.40000 _CodForma=3 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=12.00000 H_Hght=70.00000 H_Clr_X=2.00000 H_Clr_Z=2.50000 H_Ang=30.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW color=0 
+Tool=T3.3:^Cilindrado^Exteriores _NumHta=3 _Corrector=3 _Descrip=Cilindrado^Exteriores Quadrant=1 Type=DIAMOND Part_number= NTGNAME=<USER> Orient.=62.50000 _Orient.=62.50000 IC=7.00000 _IC=7.00000 Alpha=55.00000 _DesgR=0.00000 _DesgL=0.00000 _DiametroDesg=48.200 _LongitudDesg=21.500 r=0.00000 _CodForma=2 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=12.00000 H_Hght=70.00000 H_Clr_X=7.50000 H_Clr_Z=-6.00000 H_Ang=0.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW color=0 
+Tool=T5.5:^Ranurado^Exteriores _NumHta=5 _Corrector=5 _Descrip=Ranurado^Exteriores Quadrant=1 Type=GROOVING Part_number= NTGNAME=<USER> Orient.=0.00000 _Orient.=90.00000 IC=2.00000 _IC=2.00000 Alpha=25.00000 Height=10.00000 _DesgR=0.00000 _DesgL=0.00000 _DiametroDesg=53.49000 _LongitudDesg=20.00000 r=0.00000 _CodForma=0 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=12.00000 H_Hght=70.00000 H_Clr_X=1.00000 H_Clr_Z=0.00000 H_Ang=45.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW color=0 
+Tool=T6.6:^Roscado^Exteriores _NumHta=6 _Corrector=6 _Descrip=Roscado^Exteriores Quadrant=1 Type=THREAD Part_number= NTGNAME=<USER> IC=0.00000 Orient.=0.00000 _Orient.=60.00000 Alpha=60.00000 Height=1.50000 _DesgR=0.00000 _DesgL=0.00000 _DiametroDesg=0.00000 _LongitudDesg=0.00000 r=0.00000 _CodForma=2 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=12.00000 H_Hght=70.00000 H_Clr_X=1.50000 H_Clr_Z=-0.86000 H_Ang=0.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW color=0 
+Tool=T7.7:^Tronzado _NumHta=7 _Corrector=7 _Descrip=Tronzado Quadrant=1 Type=GROOVING Part_number= NTGNAME=<USER> Orient.=0.00000 _Orient.=90.00000 IC=2.20000 _IC=2.20000 Alpha=0.00000 Height=10.00000 _DesgR=0.00000 _DesgL=0.00000 _DiametroDesg=0.00000 _LongitudDesg=0.00000 r=0.00000 _CodForma=3 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=12.00000 H_Hght=70.00000 H_Clr_X=1.00000 H_Clr_Z=0.00000 H_Ang=45.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW color=0 
+Default_Tool =
+
+[Herramientas]
+
+[Origen]
+G53 =0.00,0.00,50.00
+G54 =0.00,0.00,0.00
+G55 =0.00,0.00,0.00
+G56 =0.00,0.00,0.00
+G57 =0.00,0.00,0.00
+G58 =0.00,0.00,0.00
+G59 =0.00,0.00,0.00
+
+[Notas]
+[General]
+Gama=2000
+PosX=27250
+PosZ=177160
+SCabezal=794
+FAvance=30
+THerramienta=1.1
+HtaCorrecX=49950
+HtaCorrecZ=2340
+HolguraX=0
+HolguraZ=0
+TipoTorno=$32
+OrigenY=0
+HtaCorrecY=0
+PosY=0
+PosCarrusel=1
+OrigenX=0
+OrigenZ=0

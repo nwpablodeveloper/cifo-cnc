@@ -1,0 +1,7 @@
+%Test1,MX,
+; Esto es un comentario
+T1 D1
+M6
+G00 G43 G90 F300 S1000
+G0 X0 Y0 Z20
+M30

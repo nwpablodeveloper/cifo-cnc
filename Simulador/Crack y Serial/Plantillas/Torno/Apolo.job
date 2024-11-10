@@ -1,0 +1,9 @@
+Project File: Apolo.job [Format 3.01 rev.26/3/97]
+       JOB_Type: 0
++  NC_file #1 C:\WinUnisoft\Plantillas\Torno\Apolo.nc
+         Setup: C:\WinUnisoft\Plantillas\Torno\Apolo.stp
+        Stamps: 0 0 0 0
+
+LOG File: Apolo.LOG
+DOC File: Apolo.DOC
+RVP File: Apolo.RVP

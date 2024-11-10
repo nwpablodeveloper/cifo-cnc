@@ -1,0 +1,93 @@
+;*SETUP FILE  (v2.2, August 1998)
+
+[SETUP]
+Units = MILLIMETERS
+CMS_SubDivision = AUTOMATIC
+
+[MACHINE]
+MCH_file = C:\WinUnisoft\Lib\CentroMecanizadoUniversal.mch
+Machine_Type = MILL
+Units = MILLIMETERS
+Machine_Travels0 = [-200,-200,-200]
+Machine_Travels = [400,400,400]
+RotaryAxis1_Limits = [0.000,0.000]
+RotaryAxis2_Limits = [0.000,0.000]
+ToolChange_position = [0,0,200]
+Control = 
+Default_ABC_modes = +A+B+C
+EnableDogLeg = 0
+RotaryAxis1_ProgrammingLetter = A
+RotaryAxis2_ProgrammingLetter = B
+RotaryAxis1_dir = [1.0000000,0.0000000,0.0000000]
+RotaryAxis2_dir = [0.0000000,1.0000000,0.0000000]
+RotaryAxis2_pos = [0.0000,0.0000,0.0000]
+SpindleFace_pos = [0.0000,0.0000,0.0000]
+Linear_axis_configuration = [0.000,0.000,0.000]
+ToolChange_delay = 30.00
+LoadUnload_delay = 0.0000
+ClampUnclamp_delay = 0.0000
+AirBlast_delay = 0.0000
+PalleteChange_delay = 0.0000
+M00M01_delay = 0.0000
+Max_MillSpindleSpeed = 5000
+Max_LatheSpindleSpeed = 5000
+Max_ProgrammedFeed = 3000
+Actual_RFeedXYZAxis = [5000,5000,5000]
+Actual_RFeed4thAxis = 0.000
+Actual_RFeed5thAxis = 0.000
+AxisAcceleration_XYZ = [0.000,0.000,0.000]
+AxisAcceleration_4thaxis = 0.000
+AxisAcceleration_5thaxis = 0.000
+DefaultFullStop = 1
+CycleTime_Drill_Adjust = 0.000
+CycleTime_Cycle_Adjust = 0.000
+CycleTime_Linear_Adjust = 0.000
+CycleTime_General_Adjust = 0.000
+RotaryAxis1_StartPos = 0.000
+RotaryAxis2_StartPos = 0.000
+RotaryAxis1_CoordMode = MODULE_360
+RotaryAxis2_CoordMode = MODULE_360
+ABC_modes = +A+B+C
+
+[WORK_COORDINATES]
+
+[DIAMETER_OFFSET]
+
+[LENGTH_OFFSET]
+
+[STOCK]
+STK_file = <NONE>
+STOCK=BOX xyz0=[-47,-21,-50] Lengths=[89,69,50]
+STOCK=BOX_FIXT xyz0=[-60.3500003814697,-31.3500003814697,-60] Lengths=[115.700000762939,89.7000007629395,70]
+Origin_Relocation = [0,0,0]
+Machine_Datum = [0,0,0]
+Rotation_Mode = 0
+Rotation_Matrix0 = [1.0000,0.0000,0.0000]
+Rotation_Matrix1 = [0.0000,1.0000,0.0000]
+Rotation_Matrix2 = [0.0000,0.0000,1.0000]
+
+[TOOLS]
+Tool=T1.1 Quadrant=1 Type=FLAT Part_number= D=10.00000 H=13.00000 Shank_D=10.00000 Shank_H=50.00000 Tip_offset=0.00000 color=0 
+Tool=T2.2 Quadrant=1 Type=FLAT Part_number= D=6.00 H=8.00 Shank_D=6.00 Shank_H=44.00 Tip_offset=0.00000 color=0 
+Tool=T3.3 Quadrant=1 Type=FLAT Part_number= D=8.00 H=11.00 Shank_D=10.00 Shank_H=50.00 Tip_offset=0.00000 color=0 
+Tool=T4.4 Quadrant=1 Type=FLAT Part_number= D=12.00 H=16.00 Shank_D=12.00 Shank_H=57.00 Tip_offset=0.00000 color=0 
+Tool=T5.5 Quadrant=1 Type=FLAT Part_number= D=2.50 H=5.00 Shank_D=6.00 Shank_H=44.00 Tip_offset=0.00000 color=0 
+Tool=T6.6 Quadrant=1 Type=FLAT Part_number= D=4.00 H=7.00 Shank_D=6.00 Shank_H=44.00 Tip_offset=0.00000 color=0 
+Tool=T7.7 Quadrant=1 Type=FLAT Part_number= D=5.00 H=8.00 Shank_D=5.00 Shank_H=44.00 Tip_offset=0.00000 color=0 
+Tool=T8.8 Quadrant=1 Type=FLAT Part_number= D=8.00 H=19.00 Shank_D=8.00 Shank_H=50.00 Tip_offset=0.00000 color=0 
+Tool=T9.9 Quadrant=1 Type=FLAT Part_number= D=10.00 H=22.00 Shank_D=10.00 Shank_H=50.00 Tip_offset=0.00000 color=0 
+Tool=T10.10 Quadrant=1 Type=BALL Part_number= D=6.00 H=24.00 Shank_D=6.00 Shank_H=44.00 Tip_offset=0.00000 color=0 
+Tool=T11.11 Quadrant=1 Type=BALL Part_number= D=10.00 H=45.00 Shank_D=10.00 Shank_H=71.00 Tip_offset=0.00000 color=0 
+Tool=T12.12 Quadrant=1 Type=BALL Part_number= D=3.00 H=12.00 Shank_D=3.00 Shank_H=26.00 Tip_offset=0.00000 color=0 
+Tool=T20.20 Quadrant=1 Type=DRILL Part_number= D=4.00 H=43.00 Alpha=120.00 Shank_D=4.00 Shank_H=32.00 Tip_offset=0.00000 color=0 
+Tool=T21.21 Quadrant=1 Type=DRILL Part_number= D=6.00 H=57.00 Alpha=120.00 Shank_D=6.00 Shank_H=36.00 Tip_offset=0.00000 color=0 
+Tool=T22.22 Quadrant=1 Type=DRILL Part_number= D=8.00 H=75.00 Alpha=120.00 Shank_D=8.00 Shank_H=42.00 Tip_offset=0.00000 color=0 
+Tool=T23.23 Quadrant=1 Type=DRILL Part_number= D=10.00 H=87.00 Alpha=120.00 Shank_D=10.00 Shank_H=46.00 Tip_offset=0.00000 color=0 
+Tool=T30.30 Quadrant=1 Type=CHAMFER Part_number= D=16.00 H=4.00 Tip_R=8.00 Alpha=45.00 Shank_D=12.00 Shank_H=60.00 Tip_offset=0.00000 color=0 
+Tool=T31.31 Quadrant=1 Type=CHAMFER Part_number= D=16.00 H=6.30 Tip_R=8.72 Alpha=60.00 Shank_D=12.00 Shank_H=60.00 Tip_offset=0.00000 color=0 
+Tool=T40.40 Quadrant=1 Type=DOVE Part_number= D=8.00 H=4.00 Tip_R=16.00 Alpha=45.00 Shank_D=12.00 Shank_H=56.00 Tip_offset=0.00000 color=0 
+Tool=T41.41 Quadrant=1 Type=DOVE Part_number= D=8.72 H=6.30 Tip_R=16.00 Alpha=60.00 Shank_D=12.00 Shank_H=53.70 Tip_offset=0.00000 color=0 
+Tool=T50.50 Quadrant=1 Type=CHAMFER Part_number= D=4.50 H=1.00 Tip_R=4.50 Alpha=0.00 Shank_D=6.00 Shank_H=49.00 Tip_offset=0.00000 color=0 
+Tool=T51.51 Quadrant=1 Type=FLAT Part_number= D=10.50 H=2.00 Shank_D=6.00 Shank_H=48.00 Tip_offset=0.00000 color=0 
+Default_Tool = T1.1
+

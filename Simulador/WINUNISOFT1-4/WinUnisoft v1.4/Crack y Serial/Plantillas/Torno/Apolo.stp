@@ -1,0 +1,82 @@
+;*SETUP FILE  (v2.2, August 1998)
+
+[SETUP]
+Units = MILLIMETERS
+CMS_SubDivision = AUTOMATIC
+
+[MACHINE]
+MCH_file = C:\WinApolo\LIB\Apolo.mch
+Machine_Type = LATHE
+Units = MILLIMETERS
+Machine_Travels0 = [0.00,0.00,39.00]
+Machine_Travels = [73,0,199]
+RotaryAxis1_Limits = [0.000,0.000]
+RotaryAxis2_Limits = [0.000,0.000]
+ToolChange_position = [50,0,100]
+Control = 
+Default_ABC_modes = +A+B+C
+EnableDogLeg = 0
+RotaryAxis1_ProgrammingLetter = A
+RotaryAxis2_ProgrammingLetter = B
+RotaryAxis1_dir = [1.0000000,0.0000000,0.0000000]
+RotaryAxis2_dir = [0.0000000,1.0000000,0.0000000]
+RotaryAxis2_pos = [0.0000,0.0000,0.0000]
+SpindleFace_pos = [0.0000,0.0000,0.0000]
+Linear_axis_configuration = [0.000,0.000,0.000]
+ToolChange_delay = 5
+LoadUnload_delay = 0.0000
+ClampUnclamp_delay = 0.0000
+AirBlast_delay = 0.0000
+PalleteChange_delay = 0.0000
+M00M01_delay = 0.0000
+Max_MillSpindleSpeed = 3000
+Max_LatheSpindleSpeed = 3000
+Max_ProgrammedFeed = 1200
+Actual_RFeedXYZAxis = [1200,1200,1200]
+Actual_RFeed4thAxis = 0.000
+Actual_RFeed5thAxis = 0.000
+AxisAcceleration_XYZ = [0.000,0.000,0.000]
+AxisAcceleration_4thaxis = 0.000
+AxisAcceleration_5thaxis = 0.000
+DefaultFullStop = 1
+CycleTime_Drill_Adjust = 0.000
+CycleTime_Cycle_Adjust = 0.000
+CycleTime_Linear_Adjust = 0.000
+CycleTime_General_Adjust = 0.000
+RotaryAxis1_StartPos = 0.000
+RotaryAxis2_StartPos = 0.000
+RotaryAxis1_CoordMode = MODULE_360
+RotaryAxis2_CoordMode = MODULE_360
+ABC_modes = +A+B+C
+
+[WORK_COORDINATES]
+
+[DIAMETER_OFFSET]
+
+[LENGTH_OFFSET]
+
+[STOCK]
+STK_file = <NONE>
+STOCK=CYLINDER_Z xyz0=[-15,-15,0] Diameter=30 Height=50
+STOCK=ZCYL_FIXT xyz0=[-19.5,-19.5,0] Diameter=39 Height=15
+Origin_Relocation = [73,0,238]
+Machine_Datum = [73.00,0,238.00]
+Rotation_Mode = 0
+Rotation_Matrix0 = [1.0000,0.0000,0.0000]
+Rotation_Matrix1 = [0.0000,1.0000,0.0000]
+Rotation_Matrix2 = [0.0000,0.0000,1.0000]
+
+[TOOLS]
+Tool=T0.0 Quadrant=1 Type=DIAMOND Part_number= NTGNAME=<USER> Orient.=180.00000 IC=0.00000 Alpha=0.00000 r=0.00000 P.Pnt=[0.0,0.0] Home_Name=<NONE> Rot_mode=CW Tip_offset=0.00000 color=0 
+Tool=T1.1 Quadrant=1 Type=DIAMOND Part_number= NTGNAME=<USER> Orient.=5.00000 IC=9.00000 Alpha=80.00000 r=0.20000 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=12.00000 H_Hght=70.00000 H_Clr_X=1.00000 H_Clr_Z=2.00000 H_Ang=5.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW Tip_offset=0.00000 color=0 
+Tool=T2.2 Quadrant=7 Type=DIAMOND Part_number= NTGNAME=<USER> Orient.=5.00000 IC=6.00000 Alpha=80.00000 r=0.40000 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=10.00000 H_Hght=70.00000 H_Clr_X=1.00000 H_Clr_Z=1.00000 H_Ang=5.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW Tip_offset=0.00000 color=0 
+Tool=T3.3 Quadrant=1 Type=DIAMOND Part_number= NTGNAME=<USER> Orient.=32.00000 IC=7.00000 Alpha=55.00000 r=0.20000 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=12.00000 H_Hght=70.00000 H_Clr_X=2.00000 H_Clr_Z=2.50000 H_Ang=30.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW Tip_offset=0.00000 color=0 
+Tool=T4.4 Quadrant=7 Type=DIAMOND Part_number= NTGNAME=<USER> Orient.=32.00000 IC=7.00000 Alpha=55.00000 r=0.00000 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=10.00000 H_Hght=70.00000 H_Clr_X=1.00000 H_Clr_Z=1.00000 H_Ang=30.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW Tip_offset=0.00000 color=0 
+Tool=T5.5 Quadrant=1 Type=GROOVING Part_number= NTGNAME=<USER> Orient.=0.00000 IC=2.20000 Alpha=0.00000 Height=30.00000 r=0.00000 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=12.00000 H_Hght=70.00000 H_Clr_X=30.00000 H_Clr_Z=0.00000 H_Ang=0.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW Tip_offset=0.00000 color=0 
+Tool=T6.6 Quadrant=7 Type=GROOVING Part_number= NTGNAME=<USER> Orient.=0.00000 IC=6.00000 Alpha=0.00000 Height=2.00000 r=0.00000 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=10.00000 H_Hght=70.00000 H_Clr_X=6.00000 H_Clr_Z=0.00000 H_Ang=0.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW Tip_offset=0.00000 color=0 
+Tool=T7.7 Quadrant=1 Type=THREAD Part_number= NTGNAME=<USER> IC=0.00000 Orient.=0.00000 Alpha=60.00000 Height=1.50000 r=0.00000 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=12.00000 H_Hght=70.00000 H_Clr_X=1.50000 H_Clr_Z=-0.86000 H_Ang=0.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW Tip_offset=0.00000 color=0 
+Tool=T8.8 Quadrant=7 Type=THREAD Part_number= NTGNAME=<USER> IC=0.00000 Orient.=-90.00000 Alpha=60.00000 Height=1.50000 r=0.00000 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=10.00000 H_Hght=70.00000 H_Clr_X=1.50000 H_Clr_Z=-0.86000 H_Ang=0.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW Tip_offset=0.00000 color=0 
+Tool=T8.10 Quadrant=2 Type=DIAMOND Part_number= NTGNAME=<USER> Orient.=32.00000 IC=7.00000 Alpha=55.00000 r=0.40000 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=12.00000 H_Hght=70.00000 H_Clr_X=2.00000 H_Clr_Z=2.50000 H_Ang=30.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW Tip_offset=0.00000 color=0 
+Tool=T8.9 Quadrant=1 Type=DIAMOND Part_number= NTGNAME=<USER> Orient.=62.50000 IC=7.00000 Alpha=55.00000 r=0.00000 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=12.00000 H_Hght=70.00000 H_Clr_X=7.50000 H_Clr_Z=-6.00000 H_Ang=0.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW Tip_offset=0.00000 color=0 
+Default_Tool = T0.0
+

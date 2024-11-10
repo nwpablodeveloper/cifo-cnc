@@ -1,0 +1,32 @@
+SIR_LOADJOB jobname=E:\Fresadora\201.job jobptr=35fe75c
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=E:\Fresadora\201.job jobptr=35fe75c
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=E:\Fresadora\201.job jobptr=35fe75c
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=E:\Fresadora\201.job jobptr=35fe75c
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=E:\Fresadora\201\201.job jobptr=358e75c
+---> SIR_LOADJOB Fails
+SIR_LOADJOB jobname=E:\Fresadora\201\201.job jobptr=358e75c
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=E:\Fresadora\201\201.job jobptr=368e75c
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=E:\Fresadora\201\201.job jobptr=368e75c
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=E:\Fresadora\201\201.job jobptr=368e75c
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=E:\cursos\CNC\CIFO San Feliu de Llobregat\Fresadora\201\201.job jobptr=35fddd4
+---> SIR_LOADJOB Fails
+SIR_LOADJOB jobname=E:\cursos\CNC\CIFO San Feliu de Llobregat\Fresadora\201\201.job jobptr=35fddd4
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=E:\cursos\CNC\CIFO San Feliu de Llobregat\Fresadora\201\201.job jobptr=34eddfc
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=E:\cursos\CNC\CIFO San Feliu de Llobregat\Fresadora\201\201.job jobptr=34eddfc
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=E:\cursos\CNC\CIFO San Feliu de Llobregat\Fresadora\201\201.job jobptr=35eddc8
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=E:\cursos\CNC\CIFO San Feliu de Llobregat\Fresadora\201\201.job jobptr=34edd94
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=E:\cursos\CNC\CIFO San Feliu de Llobregat\Fresadora\201\201.job jobptr=342dd94
+---> SIR_LOADJOB Succeeds

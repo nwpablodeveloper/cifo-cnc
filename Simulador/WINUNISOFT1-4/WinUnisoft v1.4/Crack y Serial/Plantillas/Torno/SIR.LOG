@@ -1,0 +1,16 @@
+SIR_LOADJOB jobname=C:\Documents and Settings\db2\Escritorio\Plantillas\Torno\Fagor8025.job jobptr=991dc10
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=C:\Documents and Settings\db2\Escritorio\Plantillas\Torno\Fagor8025.job jobptr=991dc10
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=C:\Documents and Settings\db2\Escritorio\Plantillas\Torno\Fagor8050.job jobptr=991dc10
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=C:\Documents and Settings\db2\Escritorio\Plantillas\Torno\Fagor8050.job jobptr=991dc10
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=C:\WinUnisoft\Plantillas\Torno\Fagor8025.job jobptr=593df20
+---> SIR_LOADJOB Fails
+SIR_LOADJOB jobname=C:\WinUnisoft\Plantillas\Torno\Fagor8025.job jobptr=593df20
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=C:\WinUnisoft\Plantillas\Torno\Fagor8050.job jobptr=593df20
+---> SIR_LOADJOB Fails
+SIR_LOADJOB jobname=C:\WinUnisoft\Plantillas\Torno\Fagor8050.job jobptr=593df20
+---> SIR_LOADJOB Succeeds

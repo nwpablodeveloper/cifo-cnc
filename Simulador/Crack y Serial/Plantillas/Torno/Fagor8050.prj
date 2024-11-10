@@ -1,0 +1,53 @@
+[Maquina]
+Maquina = C:\WinUnisoft\Lib\TornoUniversal.mch
+TipoMaquina = Torno
+Tipo = 1
+ControlIndex = 1
+ControlText = 8050T
+Unidad = 0
+LimiteMaquina= -200,0,-200,200,0,200
+CeroMaquina = 0,0,0
+OrigenPref = 0,0,0
+PosicionCambioHta = 75,0,200
+TiempoCambio = 60
+PosTorreta = 0
+VelocidadMaxima = 5000
+VelocidadMinima = 0
+AvanceMaximo = 3000
+AvanceG00 = 5000
+GiroCabezal = 0
+Trayectoria = 0
+CotaX = 0
+
+[Bruto]
+Forma = 0
+Material = 0
+Fijacion = 1
+XMax/Zmin = -100
+YMax/ZMax = 1
+ZMax/DExt = 50
+XMin/Long = 0
+YMin/D = 0
+ZMin/Nada = 0
+
+[Tools]
+Tool=T1.1:^Cilin.-Refre.^Exteriores _NumHta=1 _Corrector=1 _Descrip=Cilin.-Refre.^Exteriores Quadrant=1 Type=DIAMOND Part_number= NTGNAME=<USER> Orient.=5.00000 _Orient.=95.00000 IC=9.00000 _IC=9.00000 Alpha=80.00000 _DesgR=0.00000 _DesgL=0.00000 _DiametroDesg=0.00000 _LongitudDesg=0.00000 r=0.40000 _CodForma=3 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=12.00000 H_Hght=70.00000 H_Clr_X=1.00000 H_Clr_Z=2.00000 H_Ang=5.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW color=0 
+Tool=T2.2:^Cilin.-Refre.^Exteriores _NumHta=2 _Corrector=2 _Descrip=Cilin.-Refre.^Exteriores Quadrant=1 Type=DIAMOND Part_number= NTGNAME=<USER> Orient.=32.00000 _Orient.=93.00000 IC=7.00000 _IC=7.00000 Alpha=55.00000 _DesgR=0.00000 _DesgL=0.00000 _DiametroDesg=0.00000 _LongitudDesg=0.00000 r=0.00000 _CodForma=3 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=12.00000 H_Hght=70.00000 H_Clr_X=2.00000 H_Clr_Z=2.50000 H_Ang=30.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW color=0 
+Tool=T3.3:^Cilin.-Refre.^Exteriores _NumHta=3 _Corrector=3 _Descrip=Cilin.-Refre.^Exteriores Quadrant=1 Type=DIAMOND Part_number= NTGNAME=<USER> Orient.=32.00000 _Orient.=93.00000 IC=7.00000 _IC=7.00000 Alpha=55.00000 _DesgR=0.00000 _DesgL=0.00000 _DiametroDesg=0.00000 _LongitudDesg=0.00000 r=0.20000 _CodForma=3 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=12.00000 H_Hght=70.00000 H_Clr_X=2.00000 H_Clr_Z=2.50000 H_Ang=30.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW color=0 
+Tool=T5.5:^Mandrino^desbaste _NumHta=5 _Corrector=5 _Descrip=Mandrino^desbaste Quadrant=7 Type=DIAMOND Part_number= NTGNAME=<USER> Orient.=5.00000 _Orient.=95.00000 IC=9.00000 _IC=9.00000 Alpha=80.00000 _DesgR=0.00000 _DesgL=0.00000 _DiametroDesg=0.00000 _LongitudDesg=0.00000 r=0.40000 _CodForma=5 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=12.00000 H_Hght=70.00000 H_Clr_X=3.00000 H_Clr_Z=2.00000 H_Ang=5.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW color=0 
+Tool=T7.7:^Mandrino^acabado _NumHta=7 _Corrector=7 _Descrip=Mandrino^acabado Quadrant=7 Type=DIAMOND Part_number= NTGNAME=<USER> Orient.=5.00000 _Orient.=95.00000 IC=9.00000 _IC=9.00000 Alpha=80.00000 _DesgR=0.00000 _DesgL=0.00000 _DiametroDesg=0.00000 _LongitudDesg=0.00000 r=0.40000 _CodForma=5 P.Pnt=[0.0,0.0] H_Type=SIMPLEBAR H_Width=12.00000 H_Hght=70.00000 H_Clr_X=3.00000 H_Clr_Z=2.00000 H_Ang=5.00000 H_minD=0 Home_Name=<NONE> Rot_mode=CW color=0 
+Default_Tool =
+
+[Herramientas]
+
+[Origen]
+G53 = 0.00,0.00,0.00
+G54 = 0.00,0.00,0.00
+G55 = 0.00,0.00,0.00
+G56 = 0.00,0.00,0.00
+G57 = 0.00,0.00,0.00
+G58 = 0.00,0.00,0.00
+G59 = 0.00,0.00,0.00
+
+[Notas]
+

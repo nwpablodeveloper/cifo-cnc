@@ -1,0 +1,73 @@
+[Maquina]
+Maquina = C:\WinArmoni\lib\armoni.mch
+TipoMaquina = Fresa
+Tipo = 0
+ControlIndex = 2
+ControlText = WinCM
+Unidad = 0
+LimiteMaquina= -200,-200,-200,0,0,0
+CeroMaquina = 0,0,0
+OrigenPref = 0,0,0
+PosicionCambioHta = 0,0,0
+TiempoCambio = 60
+PosTorreta = 0
+VelocidadMaxima = 4000
+VelocidadMinima = 100
+AvanceMaximo = 1500
+AvanceG00 = 1500
+GiroCabezal = 0
+Trayectoria = -1
+CotaX = -1
+
+[Bruto]
+Forma = 0
+Material = -1
+Fijacion = 1
+XMax/Zmin = -175
+YMax/ZMax = -175
+ZMax/DExt = -125
+XMin/Long = -25
+YMin/D = -25
+ZMin/Nada = -100
+
+[Tools]
+Tool=T0.0:^Cambio^de^herramienta _NumHta=0 _Corrector=0 _Descrip=Cambio^de^herramienta Quadrant=1 Type=FLAT Part_number= D=0.00000 H=0.00000 _D=0.00000 _H=0.00000 _DesgR=0.00000 _DesgL=0.00000 color=0 
+Tool=T1.1:^Fresa^D4 _NumHta=1 _Corrector=1 _Descrip=Fresa^D4 Quadrant=1 Type=FLAT Part_number= D=4.00000 H=30.00000 _D=4.00000 _H=0.00000 _DesgR=0.00000 _DesgL=0.00000 Shank_D=4.00000 Shank_H=10.00000 H_Type=BULL H_D=50.00000 H_Corner_r=3.00000 H_Height=25.00000 color=0 
+Tool=T2.2:^Fresa^D10 _NumHta=2 _Corrector=2 _Descrip=Fresa^D10 Quadrant=1 Type=FLAT Part_number= D=10.00000 H=47.00000 _D=10.00000 _H=17.00000 _DesgR=0.00000 _DesgL=0.00000 Shank_D=10.00000 Shank_H=10.00000 H_Type=FLAT H_D=50.00000 H_Height=25.00000 color=0 
+Tool=T3.3:^Fresa^D8 _NumHta=3 _Corrector=3 _Descrip=Fresa^D8 Quadrant=1 Type=BALL Part_number= D=8.00000 H=37.50000 _D=8.00000 _H=7.50000 _DesgR=0.00000 _DesgL=0.00000 Shank_D=8.00000 Shank_H=10.00000 H_Type=BULL H_D=50.00000 H_Corner_r=3.00000 H_Height=25.00000 color=0 
+Tool=T4.4:^ _NumHta=4 _Corrector=4 _Descrip= Quadrant=1 Type=FLAT Part_number= D=2.50000 H=15.00000 _D=2.50000 _H=15.00000 _DesgR=0.00000 _DesgL=0.00000 color=0 
+Tool=T5.5:^ _NumHta=5 _Corrector=5 _Descrip= Quadrant=1 Type=FLAT Part_number= D=2.50000 H=15.00000 _D=2.50000 _H=15.00000 _DesgR=0.00000 _DesgL=0.00000 color=0 
+Tool=T6.6:^ _NumHta=6 _Corrector=6 _Descrip= Quadrant=1 Type=FLAT Part_number= D=2.50000 H=15.00000 _D=2.50000 _H=15.00000 _DesgR=0.00000 _DesgL=0.00000 color=0 
+Tool=T7.7:^ _NumHta=7 _Corrector=7 _Descrip= Quadrant=1 Type=FLAT Part_number= D=2.50000 H=15.00000 _D=2.50000 _H=15.00000 _DesgR=0.00000 _DesgL=0.00000 color=0 
+Tool=T8.8:^ _NumHta=8 _Corrector=8 _Descrip= Quadrant=1 Type=FLAT Part_number= D=2.50000 H=15.00000 _D=2.50000 _H=20.00000 _DesgR=0.00000 _DesgL=0.00000 color=0 
+Default_Tool =
+
+[Herramientas]
+
+[Origen]
+G53 = -150.00,-150.00,-100.00
+G54 = -100.00,-100.00,-125.00
+G55 = 0.00,0.00,0.00
+G56 = 0.00,0.00,0.00
+G57 = 0.00,0.00,0.00
+G58 = 0.00,0.00,0.00
+G59 = 0.00,0.00,0.00
+
+[Notas]
+[General]
+Gama=0
+PosX=-10000
+PosZ=0
+SCabezal=3000
+FAvance=1500
+THerramienta=1.1
+HtaCorrecX=0
+HtaCorrecZ=0
+HolguraX=0
+HolguraZ=0
+OrigenY=0
+HtaCorrecY=0
+PosY=-100000
+PosCarrusel=1
+OrigenX=0
+OrigenZ=0

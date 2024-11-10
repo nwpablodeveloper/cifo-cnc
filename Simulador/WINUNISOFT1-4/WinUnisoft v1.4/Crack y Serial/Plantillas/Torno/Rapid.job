@@ -1,0 +1,9 @@
+Project File: Rapid.job [Format 3.01 rev.26/3/97]
+       JOB_Type: 0
++  NC_file #1 C:\WinUnisoft\Plantillas\Torno\Rapid.nc
+         Setup: C:\WinUnisoft\Plantillas\Torno\Rapid.stp
+        Stamps: 0 0 0 0
+
+LOG File: Rapid.LOG
+DOC File: Rapid.DOC
+RVP File: Rapid.RVP

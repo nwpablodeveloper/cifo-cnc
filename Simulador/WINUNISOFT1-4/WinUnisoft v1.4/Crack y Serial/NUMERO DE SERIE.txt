@@ -1,0 +1,8 @@
+instalar:
+
+-ejecutar el setup.exe y instalar todo por defecto 
+-ir a la carpeta de crack y serial , copiar pscp_300.DLL al directorio de por defecto osea   C:\WinUnisoft 
+-ejecutar el Proteccion.exe del programa y poner el serial : aCcDa9B58IYPZEC785
+-no ejecutes bajo ningun concepto el programa sin haber echo los pasos anteriores 
+-a disfrutar de el programa ya lo veras es un pasada
+salu2

@@ -1,0 +1,9 @@
+Project File: Expert.job [Format 3.01 rev.26/3/97]
+       JOB_Type: 0
++  NC_file #1 C:\WinUnisoft\Plantillas\Torno\Expert.nc
+         Setup: C:\WinUnisoft\Plantillas\Torno\Expert.stp
+        Stamps: 0 0 0 0
+
+LOG File: Expert.LOG
+DOC File: Expert.DOC
+RVP File: Expert.RVP

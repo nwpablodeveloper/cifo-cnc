@@ -1,0 +1,9 @@
+Project File: Fagor8050.job [Format 3.01 rev.26/3/97]
+       JOB_Type: 0
++  NC_file #1 C:\WinUnisoft\Plantillas\Torno\Fagor8050.nc
+         Setup: C:\WinUnisoft\Plantillas\Torno\Fagor8050.stp
+        Stamps: 0 0 0 0
+
+LOG File: Fagor8050.LOG
+DOC File: Fagor8050.DOC
+RVP File: Fagor8050.RVP
