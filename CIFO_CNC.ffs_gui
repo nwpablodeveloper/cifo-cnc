@@ -31,8 +31,8 @@
     </Filter>
     <FolderPairs>
         <Pair>
-            <Left>F:\</Left>
-            <Right>E:\cursos\CNC\CIFO San Feliu de Llobregat</Right>
+            <Left>G:\Fresadora</Left>
+            <Right>E:\cursos\CNC\CIFO San Feliu de Llobregat\Fresadora</Right>
         </Pair>
     </FolderPairs>
     <Errors Ignore="false" Retry="0" Delay="5"/>

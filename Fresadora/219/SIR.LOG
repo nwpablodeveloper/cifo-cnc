@@ -30,5 +30,13 @@ SIR_LOADJOB jobname=E:\cursos\CNC\CIFO San Feliu de Llobregat\Fresadora\219\219.
 ---> SIR_LOADJOB Succeeds
 SIR_LOADJOB jobname=E:\cursos\CNC\CIFO San Feliu de Llobregat\Fresadora\219\219.job jobptr=351dd94
 ---> SIR_LOADJOB Succeeds
-SIR_LOADJOB jobname=E:\cursos\CNC\CIFO San Feliu de Llobregat\Fresadora\219\219.job jobptr=349dd94
+SIR_LOADJOB jobname=F:\Fresadora\219\219.job jobptr=349dd94
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=E:\Fresadora\219\219.job jobptr=35de75c
+---> SIR_LOADJOB Fails
+SIR_LOADJOB jobname=E:\Fresadora\219\219.job jobptr=35de75c
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=E:\Fresadora\219\219.job jobptr=35de75c
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=E:\Fresadora\219\219.job jobptr=35de75c
 ---> SIR_LOADJOB Succeeds
