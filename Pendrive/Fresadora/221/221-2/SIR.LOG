@@ -1,0 +1,10 @@
+SIR_LOADJOB jobname=E:\cursos\CNC\CIFO San Feliu de Llobregat\Fresadora\221\221-2\221-2.job jobptr=36fdcfc
+---> SIR_LOADJOB Fails
+SIR_LOADJOB jobname=E:\cursos\CNC\CIFO San Feliu de Llobregat\Fresadora\221\221-2\221-2.job jobptr=36fdcfc
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=E:\cursos\CNC\CIFO San Feliu de Llobregat\Fresadora\221\221-2\221-2.job jobptr=36fdcfc
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=E:\cursos\CNC\CIFO San Feliu de Llobregat\Pendrive\Fresadora\221\221-2\221-2.job jobptr=356dcfc
+---> SIR_LOADJOB Fails
+SIR_LOADJOB jobname=E:\cursos\CNC\CIFO San Feliu de Llobregat\Pendrive\Fresadora\221\221-2\221-2.job jobptr=356dcfc
+---> SIR_LOADJOB Succeeds
