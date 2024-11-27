@@ -1,0 +1,70 @@
+[Maquina]
+Maquina = C:\WinUnisoft\Lib\CentroMecanizadoUniversal.mch
+TipoMaquina = Fresa
+Tipo = 0
+ControlIndex = 0
+ControlText = 8025M
+Unidad = 0
+LimiteMaquina= -200,-200,-200,200,200,200
+CeroMaquina = 0,0,0
+OrigenPref = 0,0,0
+PosicionCambioHta = 0,0,200
+TiempoCambio = 30.00
+PosTorreta = 0
+VelocidadMaxima = 5000
+VelocidadMinima = 0
+AvanceMaximo = 3000
+AvanceG00 = 5000
+GiroCabezal = 0
+Trayectoria = -1
+CotaX = -1
+
+[Bruto]
+Forma = 0
+Material = 0
+Fijacion = 0
+XMax/Zmin = -57.25
+YMax/ZMax = -50
+ZMax/DExt = -14
+XMin/Long = 57.25
+YMin/D = 50
+ZMin/Nada = 0.5
+
+[Tools]
+Tool=T1.1:^Fresa^planear^D63 _NumHta=1 _Corrector=1 _Descrip=Fresa^planear^D63 Quadrant=1 Type=FLAT Part_number= D=63.00000 H=13.00000 _D=63.00000 _H=13.00000 _DesgR=0.00000 _DesgL=0.00000 Shank_D=54.00000 Shank_H=50.00000 color=0 
+Tool=T2.2:^Fresa^planear^D6 _NumHta=2 _Corrector=2 _Descrip=Fresa^planear^D6 Quadrant=1 Type=FLAT Part_number= D=6.00 H=8.00 _D=6.00 _H=8.00 _DesgR=0.00 _DesgL=0.00 Shank_D=6.00 Shank_H=44.00 color=0 
+Tool=T3.3:^Broca^puntear _NumHta=3 _Corrector=3 _Descrip=Broca^puntear Quadrant=1 Type=DRILL Part_number= D=12.00000 H=50.00000 _D=12.00000 _H=0.00000 Alpha=90.00000 _DesgR=0.00000 _DesgL=0.00000 Shank_D=12.00000 Shank_H=50.00000 color=0 
+Tool=T4.4:^Fresa^planear^D12 _NumHta=4 _Corrector=4 _Descrip=Fresa^planear^D12 Quadrant=1 Type=FLAT Part_number= D=12.00 H=16.00 _D=12.00 _H=16.00 _DesgR=0.00 _DesgL=0.00 Shank_D=12.00 Shank_H=57.00 color=0 
+Tool=T5.5:^Fresa^planear^D2.5 _NumHta=5 _Corrector=5 _Descrip=Fresa^planear^D2.5 Quadrant=1 Type=FLAT Part_number= D=2.50 H=5.00 _D=2.50 _H=5.00 _DesgR=0.00 _DesgL=0.00 Shank_D=6.00 Shank_H=44.00 color=0 
+Tool=T6.6:^Fresa^planear^D4 _NumHta=6 _Corrector=6 _Descrip=Fresa^planear^D4 Quadrant=1 Type=FLAT Part_number= D=4.00 H=7.00 _D=4.00 _H=7.00 _DesgR=0.00 _DesgL=0.00 Shank_D=6.00 Shank_H=44.00 color=0 
+Tool=T7.7:^Broca^D4 _NumHta=7 _Corrector=7 _Descrip=Broca^D4 Quadrant=1 Type=DRILL Part_number= D=4.00000 H=60.00000 _D=4.00000 _H=0.00000 Alpha=120.00000 _DesgR=0.00000 _DesgL=0.00000 Shank_D=4.00000 Shank_H=44.00000 color=0 
+Tool=T8.8:^Fresa^planear^D8 _NumHta=8 _Corrector=8 _Descrip=Fresa^planear^D8 Quadrant=1 Type=FLAT Part_number= D=8.00000 H=19.00000 _D=8.00000 _H=19.00000 _DesgR=0.00000 _DesgL=0.00000 Shank_D=8.00000 Shank_H=50.00000 color=0 
+Tool=T9.9:^Fresa^Desbaste^D10 _NumHta=9 _Corrector=9 _Descrip=Fresa^Desbaste^D10 Quadrant=1 Type=FLAT Part_number= D=20.00000 H=50.00000 _D=20.00000 _H=0.00000 _DesgR=0.00000 _DesgL=0.00000 Shank_D=10.00000 Shank_H=50.00000 color=0 
+Tool=T10.10:^Fresa^acabado^D20 _NumHta=10 _Corrector=10 _Descrip=Fresa^acabado^D20 Quadrant=1 Type=BULL Part_number= D=20.00000 H=50.00000 _D=20.00000 _H=0.00000 Corner_r=1.00000 _DesgR=0.00000 _DesgL=0.00000 Shank_D=20.00000 Shank_H=44.00000 color=0 
+Tool=T11.11:^Fresa^de^radio^D10 _NumHta=11 _Corrector=11 _Descrip=Fresa^de^radio^D10 Quadrant=1 Type=BALL Part_number= D=10.00 H=45.00 _D=10.00 _H=45.00 _DesgR=0.00 _DesgL=0.00 Shank_D=10.00 Shank_H=71.00 color=0 
+Tool=T12.12:^Fresa^de^radio^D3 _NumHta=12 _Corrector=12 _Descrip=Fresa^de^radio^D3 Quadrant=1 Type=BALL Part_number= D=3.00 H=12.00 _D=3.00 _H=12.00 _DesgR=0.00 _DesgL=0.00 Shank_D=3.00 Shank_H=26.00 color=0 
+Tool=T20.20:^Broca^D4 _NumHta=20 _Corrector=20 _Descrip=Broca^D4 Quadrant=1 Type=DRILL Part_number= D=4.00 H=43.00 _D=4.00 _H=43.00 Alpha=120.00 _DesgR=0.00 _DesgL=0.00 Shank_D=4.00 Shank_H=32.00 color=0 
+Tool=T21.21:^Broca^D6 _NumHta=21 _Corrector=21 _Descrip=Broca^D6 Quadrant=1 Type=DRILL Part_number= D=6.00 H=57.00 _D=6.00 _H=57.00 Alpha=120.00 _DesgR=0.00 _DesgL=0.00 Shank_D=6.00 Shank_H=36.00 color=0 
+Tool=T22.22:^Broca^D8 _NumHta=22 _Corrector=22 _Descrip=Broca^D8 Quadrant=1 Type=DRILL Part_number= D=8.00 H=75.00 _D=8.00 _H=75.00 Alpha=120.00 _DesgR=0.00 _DesgL=0.00 Shank_D=8.00 Shank_H=42.00 color=0 
+Tool=T23.23:^Broca^D10 _NumHta=23 _Corrector=23 _Descrip=Broca^D10 Quadrant=1 Type=DRILL Part_number= D=10.00 H=87.00 _D=10.00 _H=87.00 Alpha=120.00 _DesgR=0.00 _DesgL=0.00 Shank_D=10.00 Shank_H=46.00 color=0 
+Tool=T30.30:^Acanalar^ángulo^B^D16 _NumHta=30 _Corrector=30 _Descrip=Acanalar^ángulo^B^D16 Quadrant=1 Type=CHAMFER Part_number= D=16.00 H=4.00 _D=16.00 _H=4.00 Tip_R=8.00 Alpha=45.00 _DesgR=0.00 _DesgL=0.00 Shank_D=12.00 Shank_H=60.00 color=0 
+Tool=T31.31:^Acanalar^ángulo^B^D16 _NumHta=31 _Corrector=31 _Descrip=Acanalar^ángulo^B^D16 Quadrant=1 Type=CHAMFER Part_number= D=16.00 H=6.30 _D=16.00 _H=6.30 Tip_R=8.72 Alpha=60.00 _DesgR=0.00 _DesgL=0.00 Shank_D=12.00 Shank_H=60.00 color=0 
+Tool=T40.40:^Acanalar^ángulo^A^D8 _NumHta=40 _Corrector=40 _Descrip=Acanalar^ángulo^A^D8 Quadrant=1 Type=DOVE Part_number= D=8.00 H=4.00 _D=8.00 _H=4.00 Tip_R=16.00 Alpha=45.00 _DesgR=0.00 _DesgL=0.00 Shank_D=12.00 Shank_H=56.00 color=0 
+Tool=T41.41:^Acanalar^ángulo^A^D8.72 _NumHta=41 _Corrector=41 _Descrip=Acanalar^ángulo^A^D8.72 Quadrant=1 Type=DOVE Part_number= D=8.72 H=6.30 _D=8.72 _H=6.30 Tip_R=16.00 Alpha=60.00 _DesgR=0.00 _DesgL=0.00 Shank_D=12.00 Shank_H=53.70 color=0 
+Tool=T50.50:^Acanalar^ángulo^B^D4.5 _NumHta=50 _Corrector=50 _Descrip=Acanalar^ángulo^B^D4.5 Quadrant=1 Type=CHAMFER Part_number= D=4.50 H=1.00 _D=4.50 _H=1.00 Tip_R=4.50 Alpha=0.00 _DesgR=0.00 _DesgL=0.00 Shank_D=6.00 Shank_H=49.00 color=0 
+Tool=T51.51:^Fresa^planear^D10.5 _NumHta=51 _Corrector=51 _Descrip=Fresa^planear^D10.5 Quadrant=1 Type=FLAT Part_number= D=10.50 H=2.00 _D=10.50 _H=2.00 _DesgR=0.00 _DesgL=0.00 Shank_D=6.00 Shank_H=48.00 color=0 
+Default_Tool =
+
+[Herramientas]
+
+[Origen]
+G53 =0.00,0.00,0.00
+G54 =0.00,0.00,0.00
+G55 =0.00,0.00,0.00
+G56 =0.00,0.00,0.00
+G57 =0.00,0.00,0.00
+G58 =0.00,0.00,0.00
+G59 =0.00,0.00,0.00
+
+[Notas]
+
