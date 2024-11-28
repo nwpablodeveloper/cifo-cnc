@@ -28,7 +28,7 @@ YMax/ZMax = -50
 ZMax/DExt = -14
 XMin/Long = 57.25
 YMin/D = 50
-ZMin/Nada = 0.5
+ZMin/Nada = 0.8
 
 [Tools]
 Tool=T1.1:^Fresa^planear^D63 _NumHta=1 _Corrector=1 _Descrip=Fresa^planear^D63 Quadrant=1 Type=FLAT Part_number= D=63.00000 H=13.00000 _D=63.00000 _H=13.00000 _DesgR=0.00000 _DesgL=0.00000 Shank_D=54.00000 Shank_H=50.00000 color=0 
