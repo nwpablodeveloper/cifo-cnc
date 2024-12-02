@@ -57,7 +57,7 @@ ABC_modes = +A+B+C
 
 [STOCK]
 STK_file = <NONE>
-STOCK=BOX xyz0=[-114,-100,-23.5] Lengths=[114,100,25]
+STOCK=BOX xyz0=[-112,-100,-14] Lengths=[112,100,14.8]
 Origin_Relocation = [0,0,0]
 Machine_Datum = [0,0,0]
 Rotation_Mode = 0
@@ -66,16 +66,16 @@ Rotation_Matrix1 = [0.0000,1.0000,0.0000]
 Rotation_Matrix2 = [0.0000,0.0000,1.0000]
 
 [TOOLS]
-Tool=T1.1 Quadrant=1 Type=FLAT Part_number= D=63.00000 H=13.00000 Shank_D=30.00000 Shank_H=50.00000 Tip_offset=0.00000 color=0 
+Tool=T1.1 Quadrant=1 Type=FLAT Part_number= D=63.00000 H=13.00000 Shank_D=50.00000 Shank_H=20.00000 Tip_offset=0.00000 color=0 
 Tool=T2.2 Quadrant=1 Type=FLAT Part_number= D=6.00000 H=8.00000 Shank_D=6.00000 Shank_H=44.00000 Tip_offset=0.00000 color=0 
-Tool=T3.3 Quadrant=1 Type=FLAT Part_number= D=8.00 H=11.00 Shank_D=10.00 Shank_H=50.00 Tip_offset=0.00000 color=0 
+Tool=T3.3 Quadrant=1 Type=DRILL Part_number= D=12.00000 H=80.00000 Alpha=90.00000 Shank_D=12.00000 Shank_H=50.00000 Tip_offset=0.00000 color=0 
 Tool=T4.4 Quadrant=1 Type=FLAT Part_number= D=12.00 H=16.00 Shank_D=12.00 Shank_H=57.00 Tip_offset=0.00000 color=0 
 Tool=T5.5 Quadrant=1 Type=FLAT Part_number= D=2.50 H=5.00 Shank_D=6.00 Shank_H=44.00 Tip_offset=0.00000 color=0 
 Tool=T6.6 Quadrant=1 Type=FLAT Part_number= D=4.00 H=7.00 Shank_D=6.00 Shank_H=44.00 Tip_offset=0.00000 color=0 
-Tool=T7.7 Quadrant=1 Type=FLAT Part_number= D=5.00 H=8.00 Shank_D=5.00 Shank_H=44.00 Tip_offset=0.00000 color=0 
+Tool=T7.7 Quadrant=1 Type=DRILL Part_number= D=4.00000 H=70.00000 Alpha=120.00000 Shank_D=4.00000 Shank_H=70.00000 Tip_offset=0.00000 color=0 
 Tool=T8.8 Quadrant=1 Type=FLAT Part_number= D=8.00 H=19.00 Shank_D=8.00 Shank_H=50.00 Tip_offset=0.00000 color=0 
-Tool=T9.9 Quadrant=1 Type=FLAT Part_number= D=20.00000 H=50.00000 Shank_D=20.00000 Shank_H=50.00000 Tip_offset=0.00000 color=0 
-Tool=T10.10 Quadrant=1 Type=BULL Part_number= D=20.00000 H=50.00000 Corner_r=0.00000 Shank_D=20.00000 Shank_H=50.00000 Tip_offset=0.00000 color=0 
+Tool=T9.9 Quadrant=1 Type=FLAT Part_number= D=20.00000 H=70.00000 Shank_D=20.00000 Shank_H=20.00000 Tip_offset=0.00000 color=0 
+Tool=T10.10 Quadrant=1 Type=FLAT Part_number= D=20.00000 H=70.00000 Shank_D=20.00000 Shank_H=44.00000 Tip_offset=0.00000 color=0 
 Tool=T11.11 Quadrant=1 Type=BALL Part_number= D=10.00 H=45.00 Shank_D=10.00 Shank_H=71.00 Tip_offset=0.00000 color=0 
 Tool=T12.12 Quadrant=1 Type=BALL Part_number= D=3.00 H=12.00 Shank_D=3.00 Shank_H=26.00 Tip_offset=0.00000 color=0 
 Tool=T20.20 Quadrant=1 Type=DRILL Part_number= D=4.00 H=43.00 Alpha=120.00 Shank_D=4.00 Shank_H=32.00 Tip_offset=0.00000 color=0 

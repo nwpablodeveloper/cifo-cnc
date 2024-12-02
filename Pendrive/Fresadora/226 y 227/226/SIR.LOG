@@ -118,3 +118,11 @@ SIR_LOADJOB jobname=E:\Fresadora\226 y 227\226\226.job jobptr=372e75c
 ---> SIR_LOADJOB Succeeds
 SIR_LOADJOB jobname=E:\Fresadora\226 y 227\226\226.job jobptr=372e75c
 ---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=E:\Fresadora\226 y 227\226\226.job jobptr=364e75c
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=E:\Fresadora\226 y 227\226\226.job jobptr=367e75c
+---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=G:\Fresadora\226 y 227\226\226.job jobptr=352dd48
+---> SIR_LOADJOB Fails
+SIR_LOADJOB jobname=G:\Fresadora\226 y 227\226\226.job jobptr=352dd48
+---> SIR_LOADJOB Succeeds
