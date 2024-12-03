@@ -154,3 +154,7 @@ SIR_LOADJOB jobname=E:\Fresadora\214\214.job jobptr=344e75c
 ---> SIR_LOADJOB Succeeds
 SIR_LOADJOB jobname=E:\Fresadora\214\214.job jobptr=345e75c
 ---> SIR_LOADJOB Succeeds
+SIR_LOADJOB jobname=G:\Fresadora\214\214.job jobptr=347dd48
+---> SIR_LOADJOB Fails
+SIR_LOADJOB jobname=G:\Fresadora\214\214.job jobptr=347dd48
+---> SIR_LOADJOB Succeeds
